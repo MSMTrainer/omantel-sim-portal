@@ -1,3 +1,4 @@
+// fork test
 // Phone validation function
 function validatePhoneNumber(phone) {
     // Rule 1: Must start with +968 (Omantel Oman)
