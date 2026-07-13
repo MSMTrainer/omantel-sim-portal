@@ -9,7 +9,7 @@ function validatePhoneNumber(phone) {
     if (phone.length !== 12) { 
         return false;
     }
-    
+    //test
     // Rule 3: Second digit (after +968) must be 8 or 9 (mobile)
     const secondDigit = phone[4]; // Position 4 is the first digit after +968
     if (secondDigit !== "8" && secondDigit !== "9") {
